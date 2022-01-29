@@ -1,0 +1,46 @@
+@media (min-width:300px) and (max-width:720px) {
+
+
+    .trades{
+        padding:10px 0px 15px 0px;
+        margin:15px 0px 20px 0px;
+        border-bottom:1px solid #ffffff33;
+        display: flex;
+        justify-content: space-between;
+    }
+    .trade-outcome{
+        display: none;
+    }
+
+    .trades div{
+        font-size: 15px;
+    }
+}
+
+@media (min-width:721px) {
+
+    .trades{
+        padding:10px 0px 15px 0px;
+        margin:15px 0px 20px 0px;
+     border-bottom:1px solid #ffffff33;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .trade-outcome{
+        display: block;
+    }
+
+    .trades div{
+        font-size: 20px;
+    }
+    
+}
+
+.red{
+    color:red;
+}
+
+.green{
+    color:green
+}

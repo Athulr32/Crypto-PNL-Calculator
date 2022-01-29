@@ -1,0 +1,36 @@
+@media (min-width:300px) {
+    .pnl-title{
+        font-weight: lighter;
+        text-align: center;
+        font-size: 30px;
+    }
+    .pnl-details{
+       font-size: 1.2rem;
+       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    }   
+    
+    .details{
+        display: flex;
+        justify-content: space-between;
+        margin:15px 10px 40px 10px;
+    }
+}
+
+
+@media (min-width:720px) {
+    .pnl-title{
+        font-weight: lighter;
+        text-align: center;
+        font-size: 30px;
+    }
+    .pnl-details{
+        padding:10px 100px 0px 100px;
+        font-size: 1.5rem;
+    }
+    
+    .details{
+        display: flex;
+        justify-content: space-between;
+        margin:15px 10px 40px 10px;
+    }
+}

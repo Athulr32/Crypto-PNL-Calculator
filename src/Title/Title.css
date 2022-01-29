@@ -1,0 +1,66 @@
+@media (min-width:300px) and (max-width:720px) {
+
+    header{
+        text-align: center;
+        height: 350px;
+        color: white;
+    }
+
+    .title{
+        padding-top:20px
+    }
+
+    .crypto{
+    
+        font-size:50px;
+        padding: 0px 20px 10px 0px;
+    }
+
+    .crypto-trading{
+    
+        font-size: 80px;
+    }
+    
+    .pnl{
+        font-size: 50px;
+        padding-bottom: 20px;
+    }
+
+    .calc{
+        font-size: 60px;
+    }
+}
+
+
+@media (min-width:720px) {
+
+    header{
+        text-align: center;
+        height: 500px;
+        color: white;
+    }
+
+    .title{
+        padding-top:70px
+    }
+
+    .crypto{
+        display: inline-block;
+        font-size:100px;
+        padding: 0px 20px 10px 0px;
+    }
+
+    .crypto-trading{
+        display: inline-block;
+        font-size: 100px;
+    }
+    .pnl{
+        font-size: 80px;
+        padding-bottom: 20px;
+    }
+    
+    .calc{
+        font-size: 40px;
+    }
+}
+

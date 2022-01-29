@@ -1,0 +1,31 @@
+@media (min-width:300px) {
+
+    .container-trade{
+        margin-top: 100px;
+        width: 97%;
+        margin-right: auto;
+        margin-left: auto;
+        background-color: rgb(36, 33, 33);
+        color: white;
+        overflow:none;
+        padding:10px;
+        border-radius: 10px;
+    }
+
+}
+
+
+@media (min-width:720px) {
+
+    .container-trade{
+        margin-top: 100px;
+        width: 70%;
+        margin-right: auto;
+        margin-left: auto;
+        background-color: rgb(36, 33, 33);
+        color: white;
+        overflow:auto;
+        padding:30px;
+    }
+    
+}

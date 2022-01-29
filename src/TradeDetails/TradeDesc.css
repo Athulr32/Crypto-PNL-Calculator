@@ -1,0 +1,67 @@
+@media (min-width:300px) and (max-width:855px){
+    .trade-nav{
+        margin:20px 0 0 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 13px;
+        border-bottom:1px solid #ffffff33;
+        padding-bottom: 10px;
+    }
+
+    .outcome{
+        display: none;
+    }
+
+    .PLUSD-lap{
+        display: none;
+    }
+
+    .trade-nav div{
+       padding:0px 22px 0px 10px;
+    }
+
+    .newBalance{
+        padding: 0px !important;
+    }
+  
+}   
+
+@media (min-width:855px) {
+    *{
+        box-sizing: border-box;
+    }
+    .trade-title{
+        padding-bottom: 14px;
+        border-bottom:1px solid #ffffff33;
+        font-size: 30px;
+    }
+
+    .trade-nav{
+        margin:20px 0 0 0;
+        display: flex;
+        justify-content: space-between;
+        font-size: 19px;
+        border-bottom:1px solid #ffffff33;
+        padding-bottom: 10px;
+    }
+
+    .trade-nav div{
+        width:10%;
+    }
+
+    .PLUSD-mob{
+        display: none;
+    }
+    .outcome{
+        display: block;
+    }
+    .PLUSD-lap{
+        display: block;
+        position: relative;
+       
+    }
+
+   
+}
+

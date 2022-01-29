@@ -1,0 +1,36 @@
+@media (min-width:300px) and (max-width:720){
+    
+    .container-pnl{
+        margin: 20px 0px 40px 0px;
+        box-shadow: 1px 1px 10px 5px rgb(0, 0, 0);
+    }
+
+
+}
+
+@media (min-width:721px) and (max-width:1200px){
+    .container-pnl{
+        margin: 20px 0px 40px 0px;
+        width: 95%;
+        margin-right: auto;
+        margin-left: auto;
+        background-color: rgb(36, 33, 33);
+        color: white;
+        overflow:auto;
+        box-shadow: 1px 1px 10px 5px rgb(0, 0, 0)
+    }
+}
+
+@media (min-width:1200px) {
+    .container-pnl{
+        margin: 20px 0px 40px 0px;
+        width: 60%;
+        margin-right: auto;
+        margin-left: auto;
+        background-color: rgb(36, 33, 33);
+        color: white;
+        overflow:auto;
+        box-shadow: 1px 1px 10px 5px rgb(0, 0, 0)
+    }
+    
+}
